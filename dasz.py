@@ -18,7 +18,7 @@ app.layout = html.Div([
 
     dcc.RadioItems(
         ['Regression', 'Classification'],
-        'Linear',
+        'Regression',
         id='model-type',
         labelStyle={'display': 'inline-block', 'marginTop': '5px'}
     ),
